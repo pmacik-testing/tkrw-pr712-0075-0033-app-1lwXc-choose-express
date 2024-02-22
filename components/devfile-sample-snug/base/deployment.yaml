@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-snug
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0033-tenant/tkrw-pr712-0075-0033-app/devfile-sample-snug@sha256:4c5c901c29697614f3ddfb3905e5e88d1690d3869eae57112758562d2bfa0162
         name: my-nodejs
         ports:
         - containerPort: 3001
